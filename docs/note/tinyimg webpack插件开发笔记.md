@@ -152,4 +152,4 @@ module.exports = {
 
 **补充**：如果使用了多个插件，关于 webpack 插件的执行顺序，首先肯定是不同钩子的执行顺序是固定的，可以看文档，而相同钩子内的执行顺序是钩子本身决定的。比如`emit`钩子是一个`AsyncSeriesHook`（异步串行钩子），会根据 plugin 插入的顺序从上向下执行，因此如果你用了比如`compression-webpack-plugin`，我们需要将该插件放最后，当图片压缩完成后，再处理 gzip 之类的逻辑。
 
-项目源码：[EvanSun/tinyimg-webpack-plugin](https://gitee.com/evan-sun/tinyimg-webpack-plugin)
+项目源码：[tinyimg-webpack-plugin-no-key](https://github.com/evansun1995/tinyimg-webpack-plugin-no-key)
