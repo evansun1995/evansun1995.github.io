@@ -6,7 +6,8 @@ module.exports = {
       { text: '首页', link: '/' }, // 根路径
       { text: '笔记', link: '/note/' },
       { text: '团队', link: '/team/' },
-      { text: 'External', link: 'https://google.com' } // 外部链接
+      { text: '每日一卷', link: '/daily/' },
+      { text: 'Github', link: 'https://github.com/evansun1995/' } // 外部链接
     ],
     sidebar: {
       '/note/': [
@@ -23,6 +24,14 @@ module.exports = {
           title: '团队文档',
           collapsable: false,
           children: ['开发规范']
+        }
+      ],
+      '/daily/': [
+        {
+          title: '团队文档',
+          path: '/daily/',
+          collapsable: false,
+          children: ['http与https的区别']
         }
       ]
     }
