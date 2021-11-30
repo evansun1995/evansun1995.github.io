@@ -5,7 +5,7 @@ Evan Sun GitHub Pages editer.
 
 编辑分支：`master`
 
-发布分支：`dist`
+发布分支：`docs`
 
 
 构建打包：`npm run build`
