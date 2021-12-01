@@ -28,10 +28,10 @@ module.exports = {
       ],
       '/daily/': [
         {
-          title: '团队文档',
+          title: '每日一卷',
           path: '/daily/',
           collapsable: false,
-          children: ['http与https的区别']
+          children: ['http与https的区别', '从输入url到页面加载完成发生了什么', '前端缓存策略', '前端安全性问题']
         }
       ]
     }
