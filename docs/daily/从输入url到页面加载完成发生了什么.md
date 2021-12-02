@@ -8,7 +8,7 @@
    
 3. 判断缓存：  
    缓存存储方式按优先级依次为：`Service Worker`、`memory`和`disk`。缓存分为强缓存和协商缓存：
-   * 强缓存：根据请求的`Cache-control`和`max-age`等字段判断是否使用缓存，如果命中，不会发起HTTP请求
+   * 强缓存：根据请求的`Cache-Control`和`Expires`字段判断是否使用缓存，如果命中，不会发起HTTP请求
    * 协商缓存：根据服务端HTTP响应的`last-modified`和`Etag`字段判断是否使用缓存，如果使用缓存，服务端返回状态码304，不会返回响应数据。相比强缓存，多了一步HTTP请求的过程。
 
 4. 接收HTTP响应
