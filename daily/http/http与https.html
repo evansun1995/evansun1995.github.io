@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTTP与HTTPS | Evan&#39;s blog</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="随手记录日常开发、学习中值得分享的内容。">
+    
+    <link rel="preload" href="/assets/css/0.styles.4288576a.css" as="style"><link rel="preload" href="/assets/js/app.229a78c0.js" as="script"><link rel="preload" href="/assets/js/2.53e3bff5.js" as="script"><link rel="preload" href="/assets/js/11.c6d15166.js" as="script"><link rel="prefetch" href="/assets/js/10.d1909c60.js"><link rel="prefetch" href="/assets/js/12.d7234215.js"><link rel="prefetch" href="/assets/js/13.001a9598.js"><link rel="prefetch" href="/assets/js/14.85f2ec60.js"><link rel="prefetch" href="/assets/js/15.d507fdd0.js"><link rel="prefetch" href="/assets/js/16.5993c16b.js"><link rel="prefetch" href="/assets/js/17.36e6c57e.js"><link rel="prefetch" href="/assets/js/18.01300c2d.js"><link rel="prefetch" href="/assets/js/3.8fcc65be.js"><link rel="prefetch" href="/assets/js/4.af1e5e17.js"><link rel="prefetch" href="/assets/js/5.5912e6dd.js"><link rel="prefetch" href="/assets/js/6.67c621a3.js"><link rel="prefetch" href="/assets/js/7.5871bd6e.js"><link rel="prefetch" href="/assets/js/8.65c81849.js"><link rel="prefetch" href="/assets/js/9.2b76874d.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.4288576a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Evan's blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/note/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="/team/" class="nav-link">
+  团队
+</a></div><div class="nav-item"><a href="/daily/" class="nav-link router-link-active">
+  每日一卷
+</a></div><div class="nav-item"><a href="https://github.com/evansun1995/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/note/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="/team/" class="nav-link">
+  团队
+</a></div><div class="nav-item"><a href="/daily/" class="nav-link router-link-active">
+  每日一卷
+</a></div><div class="nav-item"><a href="https://github.com/evansun1995/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/daily/" aria-current="page" class="sidebar-link">简介</a></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>HTTP</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/daily/http/http与https.html" class="active sidebar-link">HTTP与HTTPS</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/daily/http/http与https.html#基本概念" class="sidebar-link">基本概念</a></li><li class="sidebar-sub-header"><a href="/daily/http/http与https.html#https" class="sidebar-link">HTTPS</a></li></ul></li><li><a href="/daily/http/从输入url到页面加载完成发生了什么.html" class="sidebar-link">从输入url到页面加载完成发生了什么</a></li><li><a href="/daily/http/前端缓存.html" class="sidebar-link">前端缓存</a></li><li><a href="/daily/http/前端安全性问题.html" class="sidebar-link">前端安全性问题</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>JS</span> <!----></p> <!----></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>CSS</span> <!----></p> <!----></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>VUE</span> <!----></p> <!----></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>REACT</span> <!----></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="http与https"><a href="#http与https" class="header-anchor">#</a> HTTP与HTTPS</h1> <h2 id="基本概念"><a href="#基本概念" class="header-anchor">#</a> 基本概念</h2> <p>HTTP 全称 Hyper Text Transfer Protocol（超文本传输协议），是万维网数据通信的基础，上层基于 TCP/IP 协议。<br>
+建立 TCP 请求需要经历三次握手，断开需要经历四次挥手。<br>
+HTTP版本分为 1.0（1996年）、1.1（1999年）和 2.0（2013年）。</p> <h3 id="http1-0"><a href="#http1-0" class="header-anchor">#</a> HTTP1.0</h3> <p>最原始的 HTTP 请求版本，每次请求都需要与服务器简历一个 TCP 连接，经历三次握手四次挥手，成本很高。</p> <h3 id="http1-1"><a href="#http1-1" class="header-anchor">#</a> HTTP1.1</h3> <p>相比 1.0 做了如下升级：</p> <ol><li>缓存处理策略优化，<code>Cache-Control</code>增加<code>max-age</code>值取代1.0中的<code>Expires</code>，此外还增加了多个缓存头，如<code>Entity tag</code>，<code>If-Unmodified-Since</code>， <code>If-Match</code>，<code>If-None-Match</code>等。</li> <li>支持持久连接，HTTP1.1 建立 TCP 连接默认不关闭，可以被复用，对于同一个域名，大多数浏览器允许同时简历6个持久连接。</li> <li>增加 range 头域，它允许只请求资源的某个部分，即返回码是 206（Partial Content），使得服务器支持断点续传。</li> <li>新增响应状态码。</li> <li>新增请求方式，如<code>PUT</code>、<code>DELETE</code>、<code>OPTIONS</code>等。</li></ol> <p><strong>缺点</strong>：在同一时间内，同一域名的请求数量限制（6条），超过限制数目的请求会被阻塞，且同一个 TCP 连接按顺序依次进行。</p> <h3 id="http2-0"><a href="#http2-0" class="header-anchor">#</a> HTTP2.0</h3> <p>谷歌推荐 HTTP2.0 结合 HTTPS 使用，相比1.1做了如下升级：</p> <ol><li>复用 TCP 连接，只需建立一个链接就可以同时发送多个请求或回应，且不用按顺序进行。</li> <li>采用二进制格式传输。</li> <li>报头压缩，使用缓存（设置报头信息表，缓存后只发送索引）。</li> <li>服务器推送。</li></ol> <h2 id="https"><a href="#https" class="header-anchor">#</a> HTTPS</h2> <p>HTTP 请求的升级版，在 HTTP 和 TCP 之间增加一层 SSL（/TLS）层，解决了 HTTP 请求明文传输存在的安全性问题。
+相比 HTTP 请求：</p> <ol><li>需要申请 ca 证书。</li> <li>默认端口号443。</li> <li>采用 SSL 加密传输协议，采用 加密算法加密数据+非对称加密算法交换密钥+数字证书验证身份 的安全策略，之所以不使用公钥加密主要是为了双向加密，如果使用公钥加密，服务端加密后需要额外把私钥传给客户端，增加泄密风险。</li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/daily/" class="prev router-link-active">
+        简介
+      </a></span> <span class="next"><a href="/daily/http/从输入url到页面加载完成发生了什么.html">
+        从输入url到页面加载完成发生了什么
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.229a78c0.js" defer></script><script src="/assets/js/2.53e3bff5.js" defer></script><script src="/assets/js/11.c6d15166.js" defer></script>
+  </body>
+</html>
