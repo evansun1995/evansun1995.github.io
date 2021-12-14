@@ -28,10 +28,28 @@ module.exports = {
       ],
       '/daily/': [
         {
-          title: '每日一卷',
-          path: '/daily/',
+          title: '简介',
+          path: '/daily/'
+        },
+        {
+          title: 'HTTP',
           collapsable: false,
-          children: ['http与https的区别', '从输入url到页面加载完成发生了什么', '前端缓存', '前端安全性问题']
+          children: ['http/http与https', 'http/从输入url到页面加载完成发生了什么', 'http/前端缓存', 'http/前端安全性问题']
+        },
+        {
+          title: 'JS',
+          collapsable: false,
+          children: []
+        },
+        {
+          title: 'VUE',
+          collapsable: false,
+          children: []
+        },
+        {
+          title: 'REACT',
+          collapsable: false,
+          children: []
         }
       ]
     }
